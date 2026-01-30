@@ -1,11 +1,9 @@
+
 name: Check
 
 on:
   push:
-    branches:
-      - '**'
-    tags:
-      - '**'
+    branches: [ main ]  
 
 jobs:
   tests:
